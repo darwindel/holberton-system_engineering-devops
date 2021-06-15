@@ -1,2 +1,2 @@
 #!/bin/bash
-final=${string//[A]/Z},{string//[c]/e}
+tr 'A' 'Z' | 'c' 'e'
