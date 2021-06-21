@@ -1,4 +1,4 @@
-i#!/usr/bin/env bash
+#!/usr/bin/env bash
 # Will display Holberton School and Hi using while and if
 
 i=0 
