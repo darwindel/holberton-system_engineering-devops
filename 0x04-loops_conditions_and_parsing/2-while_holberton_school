@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Will display Holberton School using while
-x=1 
+# Will display "Holberton School" 10 times using while
+x=0 
+
 while [ $x -lt 10 ] 
 do 
-	echo "Holberton School $x times"
-	x=$(( x++ ))
+	echo "Holberton School"
+	x=$((x++))
 done
