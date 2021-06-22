@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# This will display the hours and minutes 
 hour=0
         while [ $hour -lt 13 ]
         do
