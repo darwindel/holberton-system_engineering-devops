@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Using kill command to stop infinite loop
 
-kill pid
+pkill
