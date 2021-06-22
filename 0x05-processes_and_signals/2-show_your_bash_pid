@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-ps auxf | grep -e 'bash'
-# shellcheck disable=SC2009 
+# This will grep the bash pattern
+# shellcheck disable=SC2009
+
+ps auxf | grep bash
