@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Using kill command to stop infinite loop
-SIGKILL
+
+kill pid
