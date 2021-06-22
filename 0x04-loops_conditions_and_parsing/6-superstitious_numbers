@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# 4 will display back luck china, 9 will display bad luck japan and 17 bad luck italy 
+
+i=0 
+
+While [ $i -lt 21 ]
+
+do 
+	echo $i
+	case $i in 
+
+	4) echo "bad luck from China" 
+;;
+
+	9) echo "bad luck from Japan"
+;;
+	17) echo "bad luck from Italy"
+;;
+
+*)
+
+;; 
+
+esac 
+
+	i=$((i+1))
+done
