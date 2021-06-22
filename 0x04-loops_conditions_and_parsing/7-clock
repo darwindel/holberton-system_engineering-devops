@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 # This will display the hours and minutes 
-hour=0
-        while [ $hour -lt 13 ]
-        do
-                echo "Hour: $Hour"
 
+hour=0
+while [ $hour -lt 13 ]
+do
+        echo "Hour: $Hour"
         minute=1
         while [ $minute -lt 60 ]
         do
                 echo "$minute"
-        minute=$((minute+1))
+                minute=$(( minute+1 ))
 
         done
-hour=$((hour+1))
+	hour=$(( hour+1 ))
 
 done
