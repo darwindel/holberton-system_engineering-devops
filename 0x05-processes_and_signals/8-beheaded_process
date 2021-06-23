@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Bash script that kills highlander 
 
- pkill -9 -f "8-highlander"
+pkill -9 -f "highlander"
